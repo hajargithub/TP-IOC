@@ -36,19 +36,19 @@ https://github.com/hajargithub/TP-IOC/blob/master/src/main/java/ma/enset/metier/
 
 ## ✅ a) Instanciation statique
 
-  <img src="captures/Pres1.PNG" alt="Instanciation statique">
+  <img src="Captures/Pres1.PNG" alt="Instanciation statique">
 
 
 ## ✅ b) Instanciation dynamique 
 
-<img src="captures/Pres2.PNG" alt="Instanciation dynamique">
+<img src="Captures/Pres2.PNG" alt="Instanciation dynamique">
 
 ## ✅ c) Injection avec Spring
 ## 🔹 Version XML
-<img src="captures/PresSpringXML.PNG" alt="Injection avec Spring XML">
+<img src="Captures/PresSpringXML.PNG" alt="Injection avec Spring XML">
 
 ## 🔹 Version avec annotations
-<img src="captures/PresSpringAnnotation.PNG" alt="Injection avec Spring Annotations">
+<img src="Captures/PresSpringAnnotation.PNG" alt="Injection avec Spring Annotations">
 
 
 ### 📝Conclusion
