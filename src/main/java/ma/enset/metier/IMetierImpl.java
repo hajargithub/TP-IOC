@@ -1,8 +1,14 @@
 package ma.enset.metier;
 
 import ma.enset.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component("metrier")
 public class IMetierImpl implements IMetier {
+    @Autowired//Injection automatique
+    @Qualifier("d2")
     private IDao dao ; // Coublage faible
     @Override
     public double calcul() {
