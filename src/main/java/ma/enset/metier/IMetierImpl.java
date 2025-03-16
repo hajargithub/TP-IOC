@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service("metrier")
 public class IMetierImpl implements IMetier {
     @Autowired//Injection automatique
-    @Qualifier("d2")
+    @Qualifier("d")
     private IDao dao ; // Coublage faible
     @Override
     public double calcul() {
